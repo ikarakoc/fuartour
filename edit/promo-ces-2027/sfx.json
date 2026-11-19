@@ -1,0 +1,8 @@
+{"gain_db": -9, "sounds": [
+ {"file": "sfx/hit.wav", "at": 0.0, "start": 0.0, "gain_db": -8, "what": "kanca girer"},
+ {"file": "sfx/bell.wav", "at": 3.7, "start": 0.0, "gain_db": -14, "what": "60. yıl sayacı oturur"},
+ {"file": "sfx/card.wav", "at": 7.5, "start": 0.0, "gain_db": -12, "what": "ilk tema"},
+ {"file": "sfx/card.wav", "at": 9.9, "start": 0.0, "gain_db": -12, "what": "son tema"},
+ {"file": "sfx/card.wav", "at": 13.1, "start": 0.0, "gain_db": -12, "what": "ilk hizmet"},
+ {"file": "sfx/card.wav", "at": 14.9, "start": 0.0, "gain_db": -12, "what": "son hizmet"},
+ {"file": "sfx/hit.wav", "at": 18.0, "start": 0.0, "gain_db": -8, "what": "kapanış kartı"}]}

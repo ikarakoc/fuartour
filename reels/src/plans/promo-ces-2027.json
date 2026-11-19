@@ -1,0 +1,143 @@
+{
+ "id": "promo-ces-2027",
+ "duration": 18.0,
+ "inserts": [],
+ "scenes": [
+  {
+   "id": "c05",
+   "type": "hook",
+   "mode": "full",
+   "variant": "slam",
+   "start": 0.0,
+   "dur": 3.0,
+   "source": {
+    "kind": "client",
+    "ref": "fuartour.com/fuar/ces-las-vegas-2026 + kullanıcının içerik onayı (19.11.2026)"
+   },
+   "transition_in": "slide",
+   "transition_out": "slide",
+   "sound": "hit",
+   "tone": "feature",
+   "text": {
+    "lines": [
+     "CES 2027",
+     "geliyor"
+    ],
+    "accent": "geliyor"
+   },
+   "hide_subtitles": true
+  },
+  {
+   "id": "c02",
+   "type": "stat",
+   "mode": "full",
+   "start": 3.0,
+   "dur": 4.0,
+   "value": {
+    "from": 1,
+    "to": 60,
+    "suffix": ". yıl"
+   },
+   "source": {
+    "kind": "client",
+    "ref": "fuartour.com/fuar/ces-las-vegas-2026 + kullanıcının içerik onayı (19.11.2026)"
+   },
+   "transition_in": "slide",
+   "transition_out": "slide",
+   "sound": "bell",
+   "tone": "feature",
+   "text": {
+    "lines": [
+     "6–9 Ocak 2027",
+     "Las Vegas"
+    ],
+    "label": "CES 2027"
+   },
+   "hide_subtitles": true
+  },
+  {
+   "id": "c06",
+   "type": "list",
+   "mode": "full",
+   "start": 7.0,
+   "dur": 5.6,
+   "source": {
+    "kind": "client",
+    "ref": "fuartour.com/fuar/ces-las-vegas-2026 + kullanıcının içerik onayı (19.11.2026)"
+   },
+   "transition_in": "slide",
+   "transition_out": "slide",
+   "sound": "card",
+   "tone": "feature",
+   "text": {
+    "lines": [
+     "CES'te öne çıkanlar"
+    ],
+    "label": "SON EDİSYON"
+   },
+   "items": [
+    {
+     "text": "Yapay zekâ",
+     "t": 7.5
+    },
+    {
+     "text": "Robotik",
+     "t": 8.1
+    },
+    {
+     "text": "Mobilite",
+     "t": 8.7
+    },
+    {
+     "text": "Dijital sağlık",
+     "t": 9.3
+    },
+    {
+     "text": "Akıllı ev",
+     "t": 9.9
+    }
+   ],
+   "hide_subtitles": true
+  },
+  {
+   "id": "c04",
+   "type": "list",
+   "mode": "full",
+   "start": 12.6,
+   "dur": 5.4,
+   "source": {
+    "kind": "client",
+    "ref": "fuartour.com anasayfa (fuar turları, vize desteği) + kullanıcının içerik onayı (19.11.2026)"
+   },
+   "transition_in": "slide",
+   "transition_out": "slide",
+   "sound": "card",
+   "tone": "feature",
+   "text": {
+    "lines": [
+     "Fuartour ile"
+    ],
+    "label": "FUAR TURU"
+   },
+   "items": [
+    {
+     "text": "Uçuş",
+     "t": 13.1
+    },
+    {
+     "text": "Otel",
+     "t": 13.7
+    },
+    {
+     "text": "Transfer",
+     "t": 14.3
+    },
+    {
+     "text": "ABD vizesi desteği",
+     "t": 14.9
+    }
+   ],
+   "hide_subtitles": true
+  }
+ ]
+}

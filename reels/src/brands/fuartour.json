@@ -1,0 +1,77 @@
+{
+ "slug": "fuartour",
+ "name": "Fuartour",
+ "tagline": "Dünyanın fuarlarını birlikte keşfedelim",
+ "colors": {
+  "primary": "#16213E",
+  "accent": "#FF5722",
+  "light": "#FFFFFF",
+  "text_on_primary": "#FFFFFF",
+  "text_on_accent": "#16213E",
+  "extra": {}
+ },
+ "fonts": {
+  "heading": {
+   "family": "Rubik",
+   "weights": [
+    600,
+    700,
+    800
+   ],
+   "source": "local",
+   "files": [
+    "brands/fuartour/Rubik-Medium.ttf",
+    "brands/fuartour/Rubik-SemiBold.ttf",
+    "brands/fuartour/Rubik-Bold.ttf",
+    "brands/fuartour/Rubik-ExtraBold.ttf"
+   ]
+  },
+  "body": {
+   "family": "Rubik",
+   "weights": [
+    500,
+    600,
+    700
+   ],
+   "source": "local",
+   "files": [
+    "brands/fuartour/Rubik-Medium.ttf",
+    "brands/fuartour/Rubik-SemiBold.ttf",
+    "brands/fuartour/Rubik-Bold.ttf",
+    "brands/fuartour/Rubik-ExtraBold.ttf"
+   ]
+  }
+ },
+ "logos": {
+  "on_light": "brands/fuartour/fuartour-logo-orange.png",
+  "on_dark": "brands/fuartour/fuartour-logo-orange.png"
+ },
+ "motion": "lively",
+ "tone": {
+  "preset": "tech",
+  "label": "Tech, precise",
+  "loudness": "lively",
+  "overshoot": false,
+  "shake": false,
+  "scene_tone": "feature",
+  "scene_tones": [
+   "feature",
+   "punchy",
+   "calm",
+   "deadpan"
+  ],
+  "full_scenes_max": 3,
+  "transitions": [
+   "cut",
+   "fade",
+   "slide",
+   "whip",
+   "flash"
+  ],
+  "flash_max": 1,
+  "whip_max": 4,
+  "sfx": "moderate"
+ },
+ "subtitles_default": "accent",
+ "style_default": "brand"
+}

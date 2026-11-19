@@ -1,0 +1,95 @@
+{
+ "schema": 2,
+ "slug": "fuartour",
+ "name": "Fuartour",
+ "description": "Yurtiçi ve yurtdışı fuar turları, vize desteği; videolar fuar ziyaret edecek firmalar için",
+ "language": "tr",
+ "colors": {
+  "primary": "#16213E",
+  "accent": "#FF5722",
+  "light": "#FFFFFF",
+  "text_on_primary": "#FFFFFF",
+  "text_on_accent": "#16213E",
+  "extra": {}
+ },
+ "fonts": {
+  "heading": {
+   "family": "Rubik",
+   "weights": [
+    600,
+    700,
+    800
+   ],
+   "source": "local",
+   "files": [
+    "assets/fonts/Rubik-Medium.ttf",
+    "assets/fonts/Rubik-SemiBold.ttf",
+    "assets/fonts/Rubik-Bold.ttf",
+    "assets/fonts/Rubik-ExtraBold.ttf"
+   ]
+  },
+  "body": {
+   "family": "Rubik",
+   "weights": [
+    500,
+    600,
+    700
+   ],
+   "source": "local",
+   "files": [
+    "assets/fonts/Rubik-Medium.ttf",
+    "assets/fonts/Rubik-SemiBold.ttf",
+    "assets/fonts/Rubik-Bold.ttf",
+    "assets/fonts/Rubik-ExtraBold.ttf"
+   ]
+  }
+ },
+ "logos": {
+  "on_light": "assets/fuartour-logo-orange.png",
+  "on_dark": "assets/fuartour-logo-orange.png"
+ },
+ "lut": null,
+ "tagline": "Dünyanın fuarlarını birlikte keşfedelim",
+ "guide": null,
+ "rules": "rules.md",
+ "styles": {
+  "default": "brand",
+  "allowed": [
+   "marker",
+   "brand",
+   "minimal",
+   "editorial",
+   "bold"
+  ]
+ },
+ "subtitles_default": "accent",
+ "motion": null,
+ "tone": {
+  "preset": "tech"
+ },
+ "voice": "net, somut, abartısız; vaat yerine tarih ve rakam",
+ "forbidden_imagery": [],
+ "forbidden_imagery_en": [],
+ "cta_library": null,
+ "asset_verdicts": null,
+ "approver": "İbrahim Karakoç (teyit edilecek)",
+ "account": "business",
+ "music_policy": "do not burn in without a commercial license; pick the track in the app when publishing",
+ "memes_policy": "strict",
+ "inserts": {},
+ "brandbook": [],
+ "fonts_found": null,
+ "examples": [],
+ "derived": [],
+ "created": "2026-11-19",
+ "updated": "2026-11-19",
+ "last_used": null,
+ "cta": {
+  "site": "fuartour.com",
+  "handle": "@fuartour"
+ },
+ "unverified": [
+  "Logo: fuartour.com başlığındaki 330 px PNG netleştirilerek büyütüldü; vektör/yüksek çözünürlüklü özgün dosya istenecek",
+  "Koyu lacivert #16213E siteden alındı; resmi marka rengi olarak teyit edilecek"
+ ]
+}
