@@ -1,0 +1,42 @@
+{
+ "sphere": {
+  "title": "The Sphere in Las Vegas.jpg",
+  "artist": "Nigel Hoult",
+  "lic": "CC BY 2.0"
+ },
+ "griffith": {
+  "title": "Griffith Observatory 2012 01.jpg",
+  "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+  "lic": "CC BY-SA 4.0"
+ },
+ "santamonica": {
+  "title": "Los Angeles (California, USA), Santa Monica Beach -- 2012 -- 5301.jpg",
+  "artist": "Dietmar Rabich",
+  "lic": "CC BY-SA 4.0"
+ },
+ "fremont": {
+  "title": "LasVegas-FremontStreet.jpg",
+  "artist": "Jean-Christophe BENOIST",
+  "lic": "CC BY 3.0"
+ },
+ "hollywood": {
+  "title": "Los Angeles (California, USA), Hollywood Boulevard, The Doors -- 2012 -- 5040.jpg",
+  "artist": "Dietmar Rabich",
+  "lic": "CC BY-SA 4.0"
+ },
+ "bellagio": {
+  "title": "Bellagio Fountains at night, Las Vegas, Nevada - 29174293017.jpg",
+  "artist": "Matt Kieffer",
+  "lic": "CC BY-SA 2.0"
+ },
+ "rodeo": {
+  "title": "Rodeo Drive, CA.JPG",
+  "artist": "",
+  "lic": "CC BY-SA 4.0"
+ },
+ "strip": {
+  "title": "Las Vegas (Nevada, USA), The Strip -- 2012 -- 6232.jpg",
+  "artist": "Dietmar Rabich",
+  "lic": "CC BY-SA 4.0"
+ }
+}

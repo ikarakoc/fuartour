@@ -85,3 +85,9 @@ Kişi başı = THY bileti (TCMB döviz satış 50,4694) + otel payı + 150 trans
 | Tur 2 (6 gece) | 1.509,31 + 777 + 277,50 + 300 = 2.863,81 → **2.870 USD** | 1.509,31 + 1.554 + 486 + 300 = 3.849,31 → **3.850 USD** |
 
 Açık: Trip.com perakende fiyatı (TBO değil); Las Vegas otellerinde otelde ödenen resort ücreti olabilir, fiyata dahil olup olmadığı doğrulanmadı. Los Angeles–Las Vegas kara yolu transferinin 150 USD'ye sığdığı teyit edilmedi.
+
+## PDF v2 (19.11.2026)
+- Geri bildirim: otel görseli, kayıt formu/sözleşme, fuar–otel mesafesi ve şehir bilgileri eksikti.
+- Eklendi: otel fotoğrafları (Trip.com otel sayfalarından), kuş uçuşu mesafeler (otel ve nokta koordinatlarından hesaplandı), Las Vegas ve Los Angeles şehir sayfaları (fotoğraflar Wikimedia Commons, atıf sayfada), katılım formu ve sözleşme şartları.
+- Form ve genel şartlar sitedeki "AUTOMECHANICA SHANGHAI 2026 KATILIM FORMU"ndan alındı (madde numaraları düzeltildi). Banka bilgileri de o formdan; TL IBAN'ı 139. Kanton formundakinden farklı — teyit edilecek.
+- Şehir rehberindeki pratik bilgiler (hava, bahşiş, monorail durağı, otel tanıtım metinleri) genel bilgiden yazıldı; kaynakla doğrulanmadı.
