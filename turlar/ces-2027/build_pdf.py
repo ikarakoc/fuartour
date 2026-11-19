@@ -58,33 +58,33 @@ FAIR_KV = """<div class=kv>
 <div><b>55.841</b><span>ABD dışından ziyaretçi</span></div><div><b>141</b><span>ülke, bölge ve toprak</span></div></div>"""
 
 D1 = ("1. GÜN", "5 Ocak Salı", "<b>İstanbul – Los Angeles – Las Vegas.</b> 10:50 İstanbul Havalimanı dış hatlar gidiş katında buluşma, check-in ve pasaport işlemleri. <b>13:50</b> THY <b>TK9</b> ile Los Angeles'a direkt uçuş, yerel saatle 16:35 varış. Karşılama ve kara yoluyla Las Vegas'a transfer (yaklaşık 4,5 saat), otele yerleşme.")
-D2 = ("2. GÜN", "6 Ocak Çarşamba", "<b>CES 1. gün.</b> Las Vegas Convention Center'da fuar ziyareti, yaka kartlarının alınması ve firma görüşmeleri.")
-D3 = ("3.–4. GÜN", "7–8 Ocak Perşembe–Cuma", "<b>CES 2. ve 3. gün.</b> Tam gün fuar ziyareti: The Venetian'daki sergi alanları ve girişimlere ayrılan Eureka Park. Akşamlar serbest.")
+D2 = ("2. GÜN", "6 Ocak Çarşamba", "<b>CES 1. gün.</b> Otelde kahvaltı. Las Vegas Convention Center'da fuar ziyareti, yaka kartlarının alınması ve firma görüşmeleri.")
+D3 = ("3.–4. GÜN", "7–8 Ocak Perşembe–Cuma", "<b>CES 2. ve 3. gün.</b> Otelde kahvaltı. Tam gün fuar ziyareti: The Venetian'daki sergi alanları ve girişimlere ayrılan Eureka Park. Akşamlar serbest.")
 
 TOURS = {
  "CES-Las-Vegas-2027-4-Gece-Fuar-Turu": dict(
   short="CES Las Vegas 2027 · 4 gece", kick="4 GECE · 5 – 10 OCAK 2027", title="CES Las Vegas 2027 Fuar Turu",
-  sub="Dünyanın en büyük tüketici teknolojileri fuarı · THY ile Los Angeles'a direkt uçuş · Las Vegas'ta fuara yakın otel",
+  sub="Dünyanın en büyük tüketici teknolojileri fuarı · THY ile Los Angeles'a direkt uçuş · Las Vegas'ta 4* The STRAT Hotel",
   days=[D1, D2, D3,
-   ("5. GÜN", "9 Ocak Cumartesi", "<b>Las Vegas – Los Angeles – İstanbul.</b> Sabah odaların boşaltılması ve kara yoluyla Los Angeles Havalimanı'na transfer (yaklaşık 4,5 saat; bu gün fuar ziyareti yoktur). <b>18:30</b> THY <b>TK10</b> ile İstanbul'a direkt uçuş."),
+   ("5. GÜN", "9 Ocak Cumartesi", "<b>Las Vegas – Los Angeles – İstanbul.</b> Otelde kahvaltı, odaların boşaltılması ve kara yoluyla Los Angeles Havalimanı'na transfer (yaklaşık 4,5 saat; bu gün fuar ziyareti yoktur). <b>18:30</b> THY <b>TK10</b> ile İstanbul'a direkt uçuş."),
    ("6. GÜN", "10 Ocak Pazar", "<b>İstanbul.</b> 18:55 İstanbul Havalimanı'na varış ve turumuzun sonu.")],
-  stay="4 gece Las Vegas", hotel=[("Las Vegas · 5–9 Ocak (4 gece)", "Fuara yakın otel")],
+  stay="4 gece Las Vegas", hotel=[("Las Vegas · 5–9 Ocak (4 gece)", "4* The STRAT Hotel, Casino & Tower – Las Vegas Strip, fuar alanına yaklaşık 2,5 km")], price=("2.820","3.600"),
   ret="Dönüş TK10 · 9 Ocak Cumartesi 18:30 → 10 Ocak Pazar 18:55", per="4 gece, kişi başı",
   inc=["THY ile İstanbul – Los Angeles – İstanbul direkt uçak bileti (TK9 / TK10, 23 kg bagaj) ve havalimanı vergileri",
-       "Las Vegas'ta fuara yakın otelde 4 gece konaklama", "Los Angeles Havalimanı – Las Vegas oteli – Los Angeles Havalimanı transferleri"],
+       "Las Vegas'ta 4* The STRAT Hotel, Casino & Tower'da 4 gece kahvaltı dahil konaklama ve otel vergileri", "Los Angeles Havalimanı – Las Vegas oteli – Los Angeles Havalimanı transferleri"],
   cities=["lv"]),
  "CES-Las-Vegas-2027-6-Gece-Las-Vegas-Los-Angeles-Turu": dict(
   short="CES 2027 · 6 gece Las Vegas + Los Angeles", kick="6 GECE · 5 – 12 OCAK 2027", title="CES 2027 Las Vegas + Los Angeles Turu",
-  sub="4 gece Las Vegas (CES) + 2 gece Los Angeles · THY ile Los Angeles'a direkt uçuş · panoramik şehir turu ve alışveriş turu",
+  sub="4 gece Las Vegas (4* The STRAT) + 2 gece Los Angeles (4* DoubleTree by Hilton Downtown) · THY ile Los Angeles'a direkt uçuş · panoramik şehir turu ve alışveriş turu",
   days=[D1, D2, D3,
-   ("5. GÜN", "9 Ocak Cumartesi", "<b>CES son gün / Las Vegas – Los Angeles.</b> Sabah son fuar ziyaretleri. Öğleden sonra kara yoluyla Los Angeles'a geçiş (yaklaşık 4,5 saat), otele yerleşme."),
-   ("6. GÜN", "10 Ocak Pazar", "<b>Los Angeles panoramik tur.</b> Hollywood Bulvarı ve Şöhretler Kaldırımı, Hollywood yazısı manzarası, Beverly Hills ve Rodeo Drive, Santa Monica sahili."),
-   ("7. GÜN", "11 Ocak Pazartesi", "<b>Alışveriş turu / Los Angeles – İstanbul.</b> Odaların boşaltılması ve outlet alışveriş turu. Öğleden sonra havalimanına transfer, <b>18:30</b> THY <b>TK10</b> ile İstanbul'a direkt uçuş."),
+   ("5. GÜN", "9 Ocak Cumartesi", "<b>CES son gün / Las Vegas – Los Angeles.</b> Otelde kahvaltı ve son fuar ziyaretleri. Öğleden sonra kara yoluyla Los Angeles'a geçiş (yaklaşık 4,5 saat), otele yerleşme."),
+   ("6. GÜN", "10 Ocak Pazar", "<b>Los Angeles panoramik tur.</b> Otelde kahvaltı. Hollywood Bulvarı ve Şöhretler Kaldırımı, Hollywood yazısı manzarası, Beverly Hills ve Rodeo Drive, Santa Monica sahili."),
+   ("7. GÜN", "11 Ocak Pazartesi", "<b>Alışveriş turu / Los Angeles – İstanbul.</b> Otelde kahvaltı, odaların boşaltılması ve outlet alışveriş turu. Öğleden sonra havalimanına transfer, <b>18:30</b> THY <b>TK10</b> ile İstanbul'a direkt uçuş."),
    ("8. GÜN", "12 Ocak Salı", "<b>İstanbul.</b> 18:55 İstanbul Havalimanı'na varış ve turumuzun sonu.")],
-  stay="4 gece Las Vegas + 2 gece Los Angeles", hotel=[("Las Vegas · 5–9 Ocak (4 gece)", "Fuara yakın otel"), ("Los Angeles · 9–11 Ocak (2 gece)", "Şehir oteli")],
+  stay="4 gece Las Vegas + 2 gece Los Angeles", hotel=[("Las Vegas · 5–9 Ocak (4 gece)", "4* The STRAT Hotel, Casino & Tower – Las Vegas Strip, fuar alanına yaklaşık 2,5 km"), ("Los Angeles · 9–11 Ocak (2 gece)", "4* DoubleTree by Hilton Los Angeles Downtown – şehir merkezi")], price=("2.870","3.850"),
   ret="Dönüş TK10 · 11 Ocak Pazartesi 18:30 → 12 Ocak Salı 18:55", per="6 gece, kişi başı",
   inc=["THY ile İstanbul – Los Angeles – İstanbul direkt uçak bileti (TK9 / TK10, 23 kg bagaj) ve havalimanı vergileri",
-       "Las Vegas'ta fuara yakın otelde 4 gece konaklama", "Los Angeles'ta 2 gece konaklama",
+       "Las Vegas'ta 4* The STRAT Hotel, Casino & Tower'da 4 gece kahvaltı dahil konaklama ve otel vergileri", "Los Angeles'ta 4* DoubleTree by Hilton Los Angeles Downtown'da 2 gece kahvaltı dahil konaklama ve otel vergileri",
        "Los Angeles Havalimanı – Las Vegas – Los Angeles – havalimanı transferleri", "Los Angeles panoramik şehir turu (10 Ocak)", "Alışveriş turu (11 Ocak)"],
   cities=["lv", "la"]),
 }
@@ -110,7 +110,7 @@ TIPS = """<h2>Fuar Ziyaretinde Dikkat Edilecekler</h2>
 
 def page(t, body, n, total):
     return f"""<div class=page><div class=hd><img src="assets/logo-on-dark.png"><div><b>{t['short']}</b><br>fuartour.com · 0850 255 58 58</div></div>
-<div class=draft>TASLAK</div><div class=bd>{body}</div>
+<div class=bd>{body}</div>
 <div class=ft><span><b>Fuartour</b> · Fuar ve iş seyahati organizasyonu</span><span>fuartour.com · 0850 255 58 58</span><span>{n} / {total}</span></div></div>"""
 
 def build(name, t):
@@ -118,12 +118,12 @@ def build(name, t):
     p1 = f"""<div class=top><img src="assets/ces-logo.jpg"><div><div class=kick>{t['kick']}</div><h1>{t['title']}</h1><div class=sub>{t['sub']}</div></div></div>
 <div class=ph><img src="assets/ces-2026.jpg"><img src="assets/ces-2026-1.jpg"><img src="assets/ces-2026-2.jpg"></div>
 <h2>Fuar Bilgileri</h2>{FAIR_KV}<h2>Gün Gün Program</h2>{days}"""
-    hotels = "".join(f"<div><span>{a}</span><b>{b} <span class=tbd style='width:auto'>– otel adı belirlenecek</span></b></div>" for a, b in t["hotel"])
-    p2 = f"""<div class=kick>KONAKLAMA · {t['stay'].upper()}</div><h1>Konaklama ve Tur Ücreti</h1>
+    hotels = "".join(f"<div><span>{a}</span><b>{b}</b></div>" for a, b in t["hotel"])
+    p2 = f"""<div class=kick>KONAKLAMA · {t['stay'].upper()} · KAHVALTI DAHİL</div><h1>Konaklama ve Tur Ücreti</h1>
 <h2>Konaklama</h2><div class=kv style="grid-template-columns:1fr">{hotels}</div>
 <h2>Uçuş ve Tur Ücreti <small>· {t['per']}</small></h2>
 <div class=fl><div><b>Gidiş TK9</b> · 5 Ocak Salı 13:50 → 16:35 (İstanbul – Los Angeles, direkt)</div><div><b>{t['ret'].split(' · ')[0]}</b> · {t['ret'].split(' · ')[1]} (Los Angeles – İstanbul, direkt)</div></div>
-<div class=pr><div><span>Çift kişilik odada kişi başı</span><b class=tbd>belirlenecek</b> <i>USD</i></div><div><span>Tek kişilik odada</span><b class=tbd>belirlenecek</b> <i>USD</i></div></div>
+<div class=pr><div><span>Çift kişilik odada kişi başı</span><b>{t['price'][0]}</b> <i>USD</i></div><div><span>Tek kişilik odada</span><b>{t['price'][1]}</b> <i>USD</i></div></div>
 <div class=two><div><h2>Fiyata Dahil Hizmetler</h2><ul>{''.join(f'<li>{x}</li>' for x in t['inc'])}</ul></div>
 <div><h2>Fiyata Dahil Olmayanlar</h2><ul class=x>{''.join(f'<li>{x}</li>' for x in EXC)}</ul></div></div>"""
     p3 = f"<div class=kick>ŞEHİR REHBERİ</div><h1>{' ve '.join('Las Vegas' if c=='lv' else 'Los Angeles' for c in t['cities'])}</h1>" + "".join(CITY[c] for c in t["cities"]) + TIPS

@@ -19,7 +19,7 @@ Fiyatlar USD verilecek. Kur: TCMB döviz satış kuru, 19.11.2026 tarihli 2026/2
 
 5–10 Ocak 2027 · Las Vegas
 
-**Fiyata dahil:** THY ile İstanbul – Los Angeles gidiş-dönüş direkt uçak bileti (TK9 / TK10, 23 kg bagaj) ve havalimanı vergileri, Las Vegas'ta fuara yakın otelde 4 gece konaklama, Los Angeles Havalimanı – Las Vegas oteli – Los Angeles Havalimanı transferleri.
+**Fiyata dahil:** THY ile İstanbul – Los Angeles gidiş-dönüş direkt uçak bileti (TK9 / TK10, 23 kg bagaj) ve havalimanı vergileri, Las Vegas'ta fuara yakın otelde 4 gece kahvaltı dahil konaklama, Los Angeles Havalimanı – Las Vegas oteli – Los Angeles Havalimanı transferleri.
 
 **Fiyata dahil değil:** ABD (B1/B2) vizesi ve başvuru harcı, fuar giriş kaydı, öğle ve akşam yemekleri, seyahat sağlık sigortası, yurt dışı çıkış harcı, kişisel harcamalar.
 
@@ -45,7 +45,7 @@ Sabah odaların boşaltılması ve kara yoluyla Los Angeles Havalimanı'na trans
 
 5–12 Ocak 2027 · 4 gece Las Vegas + 2 gece Los Angeles
 
-**Fiyata dahil:** THY ile İstanbul – Los Angeles gidiş-dönüş direkt uçak bileti (TK9 / TK10, 23 kg bagaj) ve havalimanı vergileri, Las Vegas'ta fuara yakın otelde 4 gece ve Los Angeles'ta 2 gece konaklama, havalimanı–otel–havalimanı transferleri, Los Angeles panoramik şehir turu ve alışveriş turu.
+**Fiyata dahil:** THY ile İstanbul – Los Angeles gidiş-dönüş direkt uçak bileti (TK9 / TK10, 23 kg bagaj) ve havalimanı vergileri, Las Vegas'ta fuara yakın otelde 4 gece ve Los Angeles'ta 2 gece kahvaltı dahil konaklama, havalimanı–otel–havalimanı transferleri, Los Angeles panoramik şehir turu ve alışveriş turu.
 
 **Fiyata dahil değil:** Tur 1 ile aynı.
 
@@ -69,5 +69,19 @@ Odaların boşaltılması, outlet alışveriş turu. Öğleden sonra havalimanı
 
 - Otel adları, oda tipleri (tek/çift) ve fiyatları: TBO'dan.
 - Los Angeles ⇄ Las Vegas kara yolu transferi (tek yön ~430 km): 150 USD transfer bedeli bunu karşılıyor mu?
-- Kahvaltı dahil mi (TBO oda tipine bağlı).
 - Siteye ekleme yöntemi (wp-admin erişimi).
+
+## Fiyatlandırma (19.11.2026, kullanıcı seçimleri)
+
+Oteller Trip.com'dan, kahvaltı dahil, vergiler dahil oda toplamı (19.11.2026 sorgusu):
+- Las Vegas, 5–9 Ocak, 4 gece: The STRAT Hotel, Casino & Tower 4* — oda 1.554 USD (1 ve 2 yetişkin aynı).
+- Los Angeles, 9–11 Ocak, 2 gece: DoubleTree by Hilton Los Angeles Downtown 4* — oda çift 555 USD, tek 486 USD.
+
+Kişi başı = THY bileti (TCMB döviz satış 50,4694) + otel payı + 150 transfer + 150 hizmet; 10 USD'ye yukarı yuvarlandı.
+
+| | Çift kişilik odada kişi başı | Tek kişilik |
+|---|---|---|
+| Tur 1 (4 gece) | 1.739,08 + 777 + 300 = 2.816,08 → **2.820 USD** | 1.739,08 + 1.554 + 300 = 3.593,08 → **3.600 USD** |
+| Tur 2 (6 gece) | 1.509,31 + 777 + 277,50 + 300 = 2.863,81 → **2.870 USD** | 1.509,31 + 1.554 + 486 + 300 = 3.849,31 → **3.850 USD** |
+
+Açık: Trip.com perakende fiyatı (TBO değil); Las Vegas otellerinde otelde ödenen resort ücreti olabilir, fiyata dahil olup olmadığı doğrulanmadı. Los Angeles–Las Vegas kara yolu transferinin 150 USD'ye sığdığı teyit edilmedi.
