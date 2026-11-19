@@ -41,3 +41,11 @@
 - Görseller yapay zekâ üretimi ve temsilî; gerçek CES fotoğrafı değil. İlk görsel Las Vegas'ı andırıyor.
 - Üretilen müzik ve sesin ticari kullanım koşulları Higgsfield/ElevenLabs plan şartlarından teyit edilecek.
 - Seslendirmenin Türkçe telaffuzu dinlenerek kontrol edilmedi (otomatik yazıya döküm kurulu değil).
+
+## v3 (19.11.2026) — Türkçe seslendirme yenilendi
+- Geri bildirim: v2 seslendirmesinin Türkçesi çok kötü (İngilizce hazır ses, aksanlı).
+- Yeni ses: vidIQ üzerinden ElevenLabs "Gökçe Deniz" (anadili Türkçe, İstanbul aksanı), 28 vidIQ kredisi. "CES" okunuşu: "si-i-es" (kullanıcı seçimi).
+- Okunuş için metin fonetik yazıldı: "Si i es iki bin yirmi yedi geliyor! … Fuartur'da. Detaylar, fuartur nokta kom'da."
+- Cümleler arasına kısa nefes payı eklendi (`media/vo-tr-timed.wav`); sahneler 0–3,0 / 3,0–7,2 / 7,2–12,5 / 12,5–17,1 + kart; toplam 19,7 sn.
+- Çıktı: `ces-2027-reels-v3.mp4` (−14,0 LUFS, tepe −2,4 dBFS).
+- Açık: liste maddelerinin sese denk gelişi duraklamalardan tahmin edildi; telaffuz dinlenerek doğrulanmadı.

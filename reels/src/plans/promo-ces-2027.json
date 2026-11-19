@@ -1,6 +1,6 @@
 {
  "id": "promo-ces-2027",
- "duration": 17.0,
+ "duration": 17.1,
  "inserts": [],
  "scenes": [
   {
@@ -9,14 +9,14 @@
    "mode": "full",
    "variant": "slam",
    "start": 0.0,
-   "dur": 3.2,
+   "dur": 3.0,
    "source": {
     "kind": "client",
     "ref": "fuartour.com/fuar/ces-las-vegas-2026 + kullanıcının içerik onayı (19.11.2026)"
    },
    "transition_in": "slide",
    "transition_out": "slide",
-   "sound": "hit",
+   "sound": "none",
    "tone": "feature",
    "text": {
     "lines": [
@@ -31,8 +31,8 @@
    "id": "c02",
    "type": "stat",
    "mode": "full",
-   "start": 3.2,
-   "dur": 4.0,
+   "start": 3.0,
+   "dur": 4.2,
    "value": {
     "from": 1,
     "to": 60,
@@ -44,7 +44,7 @@
    },
    "transition_in": "slide",
    "transition_out": "slide",
-   "sound": "bell",
+   "sound": "none",
    "tone": "feature",
    "text": {
     "lines": [
@@ -60,14 +60,14 @@
    "type": "list",
    "mode": "full",
    "start": 7.2,
-   "dur": 5.5,
+   "dur": 5.3,
    "source": {
     "kind": "client",
     "ref": "fuartour.com/fuar/ces-las-vegas-2026 + kullanıcının içerik onayı (19.11.2026)"
    },
    "transition_in": "slide",
    "transition_out": "slide",
-   "sound": "card",
+   "sound": "none",
    "tone": "feature",
    "text": {
     "lines": [
@@ -78,23 +78,23 @@
    "items": [
     {
      "text": "Yapay zekâ",
-     "t": 7.5
+     "t": 7.45
     },
     {
      "text": "Robotik",
-     "t": 8.45
+     "t": 8.3
     },
     {
      "text": "Mobilite",
-     "t": 9.2
+     "t": 9.1
     },
     {
      "text": "Dijital sağlık",
-     "t": 10.1
+     "t": 10.0
     },
     {
      "text": "Akıllı ev",
-     "t": 11.25
+     "t": 10.95
     }
    ],
    "hide_subtitles": true
@@ -103,15 +103,15 @@
    "id": "c04",
    "type": "list",
    "mode": "full",
-   "start": 12.7,
-   "dur": 4.3,
+   "start": 12.5,
+   "dur": 4.6,
    "source": {
     "kind": "client",
     "ref": "fuartour.com anasayfa + kullanıcının içerik onayı (19.11.2026)"
    },
    "transition_in": "slide",
    "transition_out": "slide",
-   "sound": "card",
+   "sound": "none",
    "tone": "feature",
    "text": {
     "lines": [
@@ -122,19 +122,19 @@
    "items": [
     {
      "text": "Uçuş",
-     "t": 12.95
+     "t": 12.9
     },
     {
      "text": "Otel",
-     "t": 13.55
+     "t": 13.5
     },
     {
      "text": "Transfer",
-     "t": 14.15
+     "t": 14.1
     },
     {
      "text": "ABD vizesi desteği",
-     "t": 14.75
+     "t": 14.8
     }
    ],
    "hide_subtitles": true

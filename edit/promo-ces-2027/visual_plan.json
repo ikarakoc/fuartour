@@ -1,8 +1,8 @@
 {
  "schema": 1,
  "id": "promo-ces-2027",
- "created": "2026-11-19T03:33",
- "duration": 17.0,
+ "created": "2026-11-19T03:44",
+ "duration": 17.1,
  "segments": [],
  "inserts": [
   {
@@ -13,7 +13,7 @@
    "variant": "slam",
    "segment": null,
    "start": 0.0,
-   "dur": 3.2,
+   "dur": 3.0,
    "at": "0",
    "tone": null,
    "text": {
@@ -38,7 +38,7 @@
    "why": "İlk saniyede konuyu ve yılı söyler",
    "transition_in": "slide",
    "transition_out": "slide",
-   "sound": "hit",
+   "sound": "none",
    "hide_subtitles": true,
    "status": "ready",
    "fallback": "main footage"
@@ -50,9 +50,9 @@
    "mode": "full",
    "variant": null,
    "segment": null,
-   "start": 3.2,
-   "dur": 4.0,
-   "at": "3.2",
+   "start": 3.0,
+   "dur": 4.2,
+   "at": "3.0",
    "tone": null,
    "text": {
     "lines": [
@@ -80,7 +80,7 @@
    "why": "Tarih ve yer: videonun ana bilgisi",
    "transition_in": "slide",
    "transition_out": "slide",
-   "sound": "bell",
+   "sound": "none",
    "hide_subtitles": true,
    "status": "ready",
    "fallback": "main footage"
@@ -93,7 +93,7 @@
    "variant": null,
    "segment": null,
    "start": 7.2,
-   "dur": 5.5,
+   "dur": 5.3,
    "at": "7.2",
    "tone": null,
    "text": {
@@ -106,23 +106,23 @@
    "items": [
     {
      "text": "Yapay zekâ",
-     "t": 7.5
+     "t": 7.45
     },
     {
      "text": "Robotik",
-     "t": 8.45
+     "t": 8.3
     },
     {
      "text": "Mobilite",
-     "t": 9.2
+     "t": 9.1
     },
     {
      "text": "Dijital sağlık",
-     "t": 10.1
+     "t": 10.0
     },
     {
      "text": "Akıllı ev",
-     "t": 11.25
+     "t": 10.95
     }
    ],
    "value": null,
@@ -138,7 +138,7 @@
    "why": "Fuarda ne görüleceğini gösterir",
    "transition_in": "slide",
    "transition_out": "slide",
-   "sound": "card",
+   "sound": "none",
    "hide_subtitles": true,
    "status": "ready",
    "fallback": "main footage"
@@ -150,9 +150,9 @@
    "mode": "full",
    "variant": null,
    "segment": null,
-   "start": 12.7,
-   "dur": 4.3,
-   "at": "12.7",
+   "start": 12.5,
+   "dur": 4.6,
+   "at": "12.5",
    "tone": null,
    "text": {
     "lines": [
@@ -164,19 +164,19 @@
    "items": [
     {
      "text": "Uçuş",
-     "t": 12.95
+     "t": 12.9
     },
     {
      "text": "Otel",
-     "t": 13.55
+     "t": 13.5
     },
     {
      "text": "Transfer",
-     "t": 14.15
+     "t": 14.1
     },
     {
      "text": "ABD vizesi desteği",
-     "t": 14.75
+     "t": 14.8
     }
    ],
    "value": null,
@@ -192,14 +192,14 @@
    "why": "Fuardan markaya geçiş, CTA'ya hazırlık",
    "transition_in": "slide",
    "transition_out": "slide",
-   "sound": "card",
+   "sound": "none",
    "hide_subtitles": true,
    "status": "ready",
    "fallback": "main footage"
   }
  ],
  "keep_clear": [],
- "captions_id": "0bf55b269b80",
+ "captions_id": "ebbf208b045f",
  "brand": "fuartour",
  "settings": {
   "brand": "fuartour",
@@ -329,7 +329,7 @@
   "coverage_max": 0.22,
   "min_gap_s": 3.5,
   "broll_max": 2,
-  "coverage_max_s": 3.74
+  "coverage_max_s": 3.76
  },
  "format": "scenes-only",
  "end_card": {

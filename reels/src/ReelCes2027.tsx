@@ -10,10 +10,10 @@ import { SceneLayer } from "./kit/scenes";
 // background image per span of the video (seconds)
 const BG: { file: string; from: number }[] = [
   { file: "promo-ces-2027/bg1.jpg", from: 0 },
-  { file: "promo-ces-2027/bg2.jpg", from: 3.2 },
+  { file: "promo-ces-2027/bg2.jpg", from: 3.0 },
   { file: "promo-ces-2027/bg3.jpg", from: 7.2 },
   { file: "promo-ces-2027/bg4.jpg", from: 9.9 },
-  { file: "promo-ces-2027/bg5.jpg", from: 12.7 },
+  { file: "promo-ces-2027/bg5.jpg", from: 12.5 },
 ];
 const FADE = 8; // frames
 const DIM = 0.66;
