@@ -91,3 +91,11 @@ Açık: Trip.com perakende fiyatı (TBO değil); Las Vegas otellerinde otelde ö
 - Eklendi: otel fotoğrafları (Trip.com otel sayfalarından), kuş uçuşu mesafeler (otel ve nokta koordinatlarından hesaplandı), Las Vegas ve Los Angeles şehir sayfaları (fotoğraflar Wikimedia Commons, atıf sayfada), katılım formu ve sözleşme şartları.
 - Form ve genel şartlar sitedeki "AUTOMECHANICA SHANGHAI 2026 KATILIM FORMU"ndan alındı (madde numaraları düzeltildi). Banka bilgileri de o formdan; TL IBAN'ı 139. Kanton formundakinden farklı — teyit edilecek.
 - Şehir rehberindeki pratik bilgiler (hava, bahşiş, monorail durağı, otel tanıtım metinleri) genel bilgiden yazıldı; kaynakla doğrulanmadı.
+
+## Siteye eklendi (19.11.2026)
+- Kullanıcı onayıyla Hostinger geçici wp-admin girişi kullanıldı (yönetici yetkisi; yalnızca aşağıdakiler eklendi).
+- Tur 1: ürün 28388 — https://fuartour.com/tur/ces-las-vegas-2027-4-gece-thy-istanbul/ (çift 2.820, tek 3.600 USD; varyasyon 28389, 28390; PDF medya 28387)
+- Tur 2: ürün 28392 — https://fuartour.com/tur/ces-las-vegas-2027-6-gece-las-vegas-los-angeles-thy-istanbul/ (çift 2.870, tek 3.850 USD; varyasyon 28393, 28394; PDF medya 28391)
+- Yeni otel terimleri: 3398 (4* The STRAT Hotel, Casino & Tower), 3399 (4* DoubleTree by Hilton Los Angeles Downtown).
+- Yapı IPPE Atlanta turundan (28244) alındı: Otel + Oda Tipi varyasyonları, gün gün program, SSS, CES fuar kaydına (17619) bağlantı.
+- Eski "CES 2026" turu (22266) fuar sayfasında hâlâ listeleniyor; dokunulmadı.
