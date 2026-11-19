@@ -1,7 +1,7 @@
 {
  "video": "",
  "captions": {
-  "duration": 18.0,
+  "duration": 17.0,
   "segments": [],
   "words": []
  },
@@ -88,19 +88,19 @@
  "hideSubtitles": [
   [
    0.0,
-   3.0
+   3.2
   ],
   [
-   3.0,
-   7.0
+   3.2,
+   7.2
   ],
   [
-   7.0,
-   12.6
+   7.2,
+   12.7
   ],
   [
-   12.6,
-   18.0
+   12.7,
+   17.0
   ]
  ],
  "drift": false,
@@ -114,12 +114,12 @@
  "subtitlesTop": 1290,
  "scenes": [
   {
-   "id": "c05",
+   "id": "c01",
    "type": "hook",
    "mode": "full",
    "variant": "slam",
    "start": 0.0,
-   "dur": 3.0,
+   "dur": 3.2,
    "source": {
     "kind": "client",
     "ref": "fuartour.com/fuar/ces-las-vegas-2026 + kullanıcının içerik onayı (19.11.2026)"
@@ -141,7 +141,7 @@
    "id": "c02",
    "type": "stat",
    "mode": "full",
-   "start": 3.0,
+   "start": 3.2,
    "dur": 4.0,
    "value": {
     "from": 1,
@@ -166,11 +166,11 @@
    "hide_subtitles": true
   },
   {
-   "id": "c06",
+   "id": "c03",
    "type": "list",
    "mode": "full",
-   "start": 7.0,
-   "dur": 5.6,
+   "start": 7.2,
+   "dur": 5.5,
    "source": {
     "kind": "client",
     "ref": "fuartour.com/fuar/ces-las-vegas-2026 + kullanıcının içerik onayı (19.11.2026)"
@@ -192,19 +192,19 @@
     },
     {
      "text": "Robotik",
-     "t": 8.1
+     "t": 8.45
     },
     {
      "text": "Mobilite",
-     "t": 8.7
+     "t": 9.2
     },
     {
      "text": "Dijital sağlık",
-     "t": 9.3
+     "t": 10.1
     },
     {
      "text": "Akıllı ev",
-     "t": 9.9
+     "t": 11.25
     }
    ],
    "hide_subtitles": true
@@ -213,11 +213,11 @@
    "id": "c04",
    "type": "list",
    "mode": "full",
-   "start": 12.6,
-   "dur": 5.4,
+   "start": 12.7,
+   "dur": 4.3,
    "source": {
     "kind": "client",
-    "ref": "fuartour.com anasayfa (fuar turları, vize desteği) + kullanıcının içerik onayı (19.11.2026)"
+    "ref": "fuartour.com anasayfa + kullanıcının içerik onayı (19.11.2026)"
    },
    "transition_in": "slide",
    "transition_out": "slide",
@@ -232,19 +232,19 @@
    "items": [
     {
      "text": "Uçuş",
-     "t": 13.1
+     "t": 12.95
     },
     {
      "text": "Otel",
-     "t": 13.7
+     "t": 13.55
     },
     {
      "text": "Transfer",
-     "t": 14.3
+     "t": 14.15
     },
     {
      "text": "ABD vizesi desteği",
-     "t": 14.9
+     "t": 14.75
     }
    ],
    "hide_subtitles": true

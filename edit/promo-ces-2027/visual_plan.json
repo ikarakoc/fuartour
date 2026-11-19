@@ -1,19 +1,19 @@
 {
  "schema": 1,
  "id": "promo-ces-2027",
- "created": "2026-11-19T03:18",
- "duration": 18.0,
+ "created": "2026-11-19T03:33",
+ "duration": 17.0,
  "segments": [],
  "inserts": [
   {
-   "id": "c05",
+   "id": "c01",
    "kind": "scene",
    "type": "hook",
    "mode": "full",
    "variant": "slam",
    "segment": null,
    "start": 0.0,
-   "dur": 3.0,
+   "dur": 3.2,
    "at": "0",
    "tone": null,
    "text": {
@@ -34,7 +34,7 @@
     "kind": "client",
     "ref": "fuartour.com/fuar/ces-las-vegas-2026 + kullanıcının içerik onayı (19.11.2026)"
    },
-   "what": "Kanca: büyük yazı",
+   "what": "Kanca: büyük yazı, arkada gece şehir görseli",
    "why": "İlk saniyede konuyu ve yılı söyler",
    "transition_in": "slide",
    "transition_out": "slide",
@@ -50,9 +50,9 @@
    "mode": "full",
    "variant": null,
    "segment": null,
-   "start": 3.0,
+   "start": 3.2,
    "dur": 4.0,
-   "at": "3.0",
+   "at": "3.2",
    "tone": null,
    "text": {
     "lines": [
@@ -76,7 +76,7 @@
     "kind": "client",
     "ref": "fuartour.com/fuar/ces-las-vegas-2026 + kullanıcının içerik onayı (19.11.2026)"
    },
-   "what": "60. yıl sayacı, altında tarih ve şehir",
+   "what": "60. yıl sayacı, tarih ve şehir; arkada fuar salonu",
    "why": "Tarih ve yer: videonun ana bilgisi",
    "transition_in": "slide",
    "transition_out": "slide",
@@ -86,15 +86,15 @@
    "fallback": "main footage"
   },
   {
-   "id": "c06",
+   "id": "c03",
    "kind": "scene",
    "type": "list",
    "mode": "full",
    "variant": null,
    "segment": null,
-   "start": 7.0,
-   "dur": 5.6,
-   "at": "7.0",
+   "start": 7.2,
+   "dur": 5.5,
+   "at": "7.2",
    "tone": null,
    "text": {
     "lines": [
@@ -110,19 +110,19 @@
     },
     {
      "text": "Robotik",
-     "t": 8.1
+     "t": 8.45
     },
     {
      "text": "Mobilite",
-     "t": 8.7
+     "t": 9.2
     },
     {
      "text": "Dijital sağlık",
-     "t": 9.3
+     "t": 10.1
     },
     {
      "text": "Akıllı ev",
-     "t": 9.9
+     "t": 11.25
     }
    ],
    "value": null,
@@ -134,7 +134,7 @@
     "kind": "client",
     "ref": "fuartour.com/fuar/ces-las-vegas-2026 + kullanıcının içerik onayı (19.11.2026)"
    },
-   "what": "Beş tema tek tek gelir",
+   "what": "Temalar seslendirmeyle tek tek; arkada robot ve otonom araç",
    "why": "Fuarda ne görüleceğini gösterir",
    "transition_in": "slide",
    "transition_out": "slide",
@@ -150,9 +150,9 @@
    "mode": "full",
    "variant": null,
    "segment": null,
-   "start": 12.6,
-   "dur": 5.4,
-   "at": "12.6",
+   "start": 12.7,
+   "dur": 4.3,
+   "at": "12.7",
    "tone": null,
    "text": {
     "lines": [
@@ -164,19 +164,19 @@
    "items": [
     {
      "text": "Uçuş",
-     "t": 13.1
+     "t": 12.95
     },
     {
      "text": "Otel",
-     "t": 13.7
+     "t": 13.55
     },
     {
      "text": "Transfer",
-     "t": 14.3
+     "t": 14.15
     },
     {
      "text": "ABD vizesi desteği",
-     "t": 14.9
+     "t": 14.75
     }
    ],
    "value": null,
@@ -186,9 +186,9 @@
    "side": null,
    "source": {
     "kind": "client",
-    "ref": "fuartour.com anasayfa (fuar turları, vize desteği) + kullanıcının içerik onayı (19.11.2026)"
+    "ref": "fuartour.com anasayfa + kullanıcının içerik onayı (19.11.2026)"
    },
-   "what": "Fuartour hizmetleri tek tek gelir",
+   "what": "Hizmetler seslendirmeyle tek tek; arkada uçak penceresi",
    "why": "Fuardan markaya geçiş, CTA'ya hazırlık",
    "transition_in": "slide",
    "transition_out": "slide",
@@ -199,7 +199,7 @@
   }
  ],
  "keep_clear": [],
- "captions_id": "156bdf69c015",
+ "captions_id": "0bf55b269b80",
  "brand": "fuartour",
  "settings": {
   "brand": "fuartour",
@@ -329,7 +329,7 @@
   "coverage_max": 0.22,
   "min_gap_s": 3.5,
   "broll_max": 2,
-  "coverage_max_s": 3.96
+  "coverage_max_s": 3.74
  },
  "format": "scenes-only",
  "end_card": {

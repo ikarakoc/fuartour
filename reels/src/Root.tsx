@@ -1,6 +1,7 @@
 import { Composition } from "remotion";
 import { KIT_FPS, ReelCover, ReelKit, reelCoverDefaults, reelKitDefaults, reelKitMetadata } from "./ReelKit";
 import { GEN } from "./gen/registry";
+import { ReelCes2027 } from "./ReelCes2027";
 
 // Created by kit.py new. The kit (src/ReelKit.tsx, src/kit/) is updated by kit.py update; this file is yours.
 export const RemotionRoot: React.FC = () => {
@@ -18,6 +19,9 @@ export const RemotionRoot: React.FC = () => {
         defaultProps={reelKitDefaults}
         calculateMetadata={reelKitMetadata}
       />
+      {/* Per-video composition: edit/promo-ces-2027 (scenes over background images) */}
+      <Composition id="ReelCes2027" component={ReelCes2027} durationInFrames={90} fps={KIT_FPS} width={1080} height={1920}
+        defaultProps={reelKitDefaults} calculateMetadata={reelKitMetadata} />
       {/* The cover (a still): a video frame + the hook, same props as ReelKit:
           npx remotion still ReelCover edit/<id>/cover.png --props=edit/<id>/reelkit-props.json */}
       <Composition id="ReelCover" component={ReelCover} durationInFrames={1} fps={KIT_FPS} width={1080} height={1920}

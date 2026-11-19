@@ -27,3 +27,17 @@
 - Tarih (6–9 Ocak 2027), 60. yıl ve temalar fuartour.com CES sayfasından; resmi kaynakla son kontrol.
 - Logo 330 px PNG'den büyütüldü; vektör/yüksek çözünürlüklü özgün dosya gerekli.
 - Koyu lacivert #16213E ve turuncu #FF5722 siteden alındı; resmi marka renkleri teyit edilecek.
+
+## v2 (19.11.2026) — görseller, müzik, seslendirme
+- Kullanıcı onayı: Higgsfield ile üretim (~6,1 kredi): 5 arka plan görseli (gpt_image_2_6), müzik (ElevenLabs Music v2.5, enstrümantal), seslendirme (ElevenLabs, kadın ses "Maya").
+- Seslendirme metni: "CES 2027 geliyor. Altmışıncı yılında, 6–9 Ocak'ta Las Vegas'ta. Yapay zekâ, robotik, mobilite, dijital sağlık, akıllı ev. Uçuş, otel, transfer ve Amerika vizesi desteği Fuartour'da. Detaylar fuartour.com'da."
+- Sahneler seslendirmeye göre yeniden zamanlandı: 0–3,2 / 3,2–7,2 / 7,2–12,7 / 12,7–17,0 + kapanış kartı; toplam 19,6 sn.
+- Videoya özel kompozisyon `reels/src/ReelCes2027.tsx`: kit sahneleri + tam ekran görseller, %66 lacivert karartma.
+- Miks: müzik sesin 13 dB altında, parçanın vuruşu kapanış kartına (17,0 sn) denk; master −13,9 LUFS, tepe −2,3 dBFS. Ses efektleri kaldırıldı.
+- Çıktı: `ces-2027-reels-v2.mp4`. Kaynaklar: `media/`.
+- Ortam: Higgsfield dosyaları için kişisel "fuartour" ortamı oluşturuldu (d8j0ntlcm91z4.cloudfront.net izinli).
+
+## Açık konular (v2)
+- Görseller yapay zekâ üretimi ve temsilî; gerçek CES fotoğrafı değil. İlk görsel Las Vegas'ı andırıyor.
+- Üretilen müzik ve sesin ticari kullanım koşulları Higgsfield/ElevenLabs plan şartlarından teyit edilecek.
+- Seslendirmenin Türkçe telaffuzu dinlenerek kontrol edilmedi (otomatik yazıya döküm kurulu değil).
