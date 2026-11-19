@@ -13,7 +13,7 @@ THY bileti + otel (TBO) + 150 USD transfer + 150 USD hizmet bedeli
 
 Uçuşlar: TK9 İstanbul 13:50 → Los Angeles 16:35; TK10 Los Angeles 18:30 → İstanbul ertesi gün 18:55. Sabah seçenekleri: TK179 (08:00 → 10:50, gidişte 9.832 TRY daha ucuz) ve TK180 (12:45 → 12:55, aynı fiyat).
 
-Fiyatlar USD verilecek (kullanıcı kararı). Kur: THY'nin kendi tarife kurallarındaki oran, 1 USD = 50,42 TRY (aynı sorguda değişiklik ücreti 150 USD = 7.563 TRY). Buna göre bilet: Tur 1 ≈ 1.741 USD, Tur 2 ≈ 1.511 USD. Otel hariç ara toplam (bilet + 150 transfer + 150 hizmet): Tur 1 ≈ 2.041 USD, Tur 2 ≈ 1.811 USD.
+Fiyatlar USD verilecek. Kur: TCMB döviz satış kuru, 19.11.2026 tarihli 2026/218 sayılı bülten, 1 USD = 50,4694 TRY (kullanıcı kararı). Buna göre bilet: Tur 1 = 1739.08 USD, Tur 2 = 1509.31 USD. Otel hariç ara toplam (bilet + 150 transfer + 150 hizmet): Tur 1 = 2039.08 USD, Tur 2 = 1809.31 USD.
 
 ## Tur 1 — CES 2027 | 4 Gece Fuar Turu | THY | Fuara Yakın Otel
 
