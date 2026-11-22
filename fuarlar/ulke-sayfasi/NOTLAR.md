@@ -6,6 +6,6 @@
   - Metin: ülke teriminin açıklamasının ilk iki cümlesi (Hong Kong'da açıklama vize ile başladığı için özel metin).
   - Sayaçlar: toplam fuar (terim sayısı) ve önümüzdeki 12 ayda başlayan fuarlar (veritabanından, 6 saat önbellek).
   - Ay filtresi: ?ay=YYYY-MM, ft_tarih sorgusuna başlangıç tarihi aralığı ekler; sonsuz kaydırmada korunuyor.
-- Çin ve Hong Kong: /fuarlar/ulke-cin-fuarlari/ ve /fuarlar/ulke-hong-kong-fuarlari/ Redirection eklentisiyle /cin-fuarlari/ ve /hong-kong-fuarlari/ sayfalarına yönleniyor (dokunulmadı).
+- Çin ve Hong Kong (22.11.2026, kullanıcı isteğiyle): Redirection kuralları 1 (/fuarlar/ulke-cin-fuarlari/ → /cin-fuarlari/) ve 4 (/fuarlar/ulke-hong-kong-fuarlari/ → /hong-kong-fuarlari/) silinmeden devre dışı bırakıldı; artık filtreli sayfa açılıyor. /cin-fuarlari/ ve /hong-kong-fuarlari/ sayfaları duruyor. Geri almak için iki kuralı Araçlar → Redirection'da etkinleştir.
 - Yedekler: fuarlar-16904-yedek-2026-11-22.json, fuarlar-16904-sayfa-ayarlari-yedek.json, anasayfa-231-yedek-2026-11-22.json.
 - Geri alma: snippet 42'yi pasifleştir; 16904'ten a7c41e2'yi kaldır; 231'de kutu bağlantılarını /ulkeler/<slug>/ yap.
