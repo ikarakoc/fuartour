@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Fuartour Özel Tur Talebi
  * Description: Fuar sayfasında "Fuara Ait Turlar" sekmesinde aktif tur yoksa özel paket tur talep formu gösterir. Talepler "Özel Tur Talepleri" menüsünde saklanır ve e-posta ile bildirilir. reCAPTCHA v2 korumalı. Kısa kod: [fuartour_ozel_tur_formu]
- * Version: 1.1.0
+ * Version: 1.1.3
  * Author: Fuartour
  * Text Domain: fuartour-ozel-tur
  */
@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'FTOT_VERSION', '1.1.0' );
+define( 'FTOT_VERSION', '1.1.3' );
 define( 'FTOT_CPT', 'ft_tur_talebi' );
 define( 'FTOT_OPT', 'ftot_ayarlar' );
 
@@ -360,7 +360,7 @@ function ftot_js() {
 				if(wid!==null){ var tok=grecaptcha.getResponse(wid); if(!tok){ yaz('Lütfen "Ben robot değilim" kutusunu işaretleyin.','hata'); return; } fd.set('g-recaptcha-response',tok); }
 				else { yaz('Güvenlik doğrulaması yükleniyor, lütfen birkaç saniye sonra tekrar deneyin.','hata'); yukle(); ciz(); return; }
 				fd.set('ajax','1'); btn.disabled=true; yaz('Gönderiliyor…');
-				fetch(form.action,{method:'POST',body:fd,credentials:'same-origin'}).then(function(r){return r.json();}).then(function(j){
+				fetch(form.getAttribute('action'),{method:'POST',body:fd,credentials:'same-origin'}).then(function(r){return r.text();}).then(function(t){ var a=t.indexOf('{"success"'); if(a<0) throw new Error('json'); return JSON.parse(t.slice(a)); }).then(function(j){
 					if(j&&j.success){ form.innerHTML='<div class="ftot-tesekkur"><strong>Talebiniz alındı, teşekkür ederiz.</strong>'+(j.data&&j.data.mesaj?j.data.mesaj:'')+'</div>'; form.scrollIntoView({block:'center',behavior:'smooth'}); }
 					else { yaz((j&&j.data&&j.data.mesaj)||'Gönderilemedi, lütfen tekrar deneyin.','hata'); btn.disabled=false; try{grecaptcha.reset(wid);}catch(e){} }
 				}).catch(function(){ yaz('Bağlantı hatası, lütfen tekrar deneyin.','hata'); btn.disabled=false; try{grecaptcha.reset(wid);}catch(e){} });
@@ -424,9 +424,38 @@ function ftot_ip() {
 	return isset( $_SERVER['REMOTE_ADDR'] ) ? sanitize_text_field( wp_unslash( $_SERVER['REMOTE_ADDR'] ) ) : '';
 }
 
+/** Hata günlüğü: wp-content/uploads/ftot-gunluk.log (yalnızca teknik hata ayrıntısı, kişisel veri yazılmaz). */
+function ftot_gunluk( $satir ) {
+	$d = wp_upload_dir( null, false );
+	if ( ! empty( $d['basedir'] ) ) {
+		@file_put_contents( trailingslashit( $d['basedir'] ) . 'ftot-gunluk.log', gmdate( 'c' ) . ' ' . $satir . "\n", FILE_APPEND ); // phpcs:ignore
+	}
+}
+
 function ftot_gonder() {
+	// Başka eklentilerin bastığı uyarılar JSON yanıtını bozmasın diye tüm çıktı tamponlanır.
+	ob_start();
+	try {
+		ftot_gonder_isle();
+	} catch ( \Throwable $e ) {
+		ftot_gunluk( 'HATA ' . get_class( $e ) . ': ' . $e->getMessage() . ' @ ' . $e->getFile() . ':' . $e->getLine() );
+		while ( ob_get_level() > 0 ) {
+			ob_end_clean();
+		}
+		wp_send_json_error( array( 'mesaj' => 'Talebiniz gönderilemedi. Lütfen bizi arayın: 0850 255 58 58' ), 200 );
+	}
+}
+
+function ftot_gonder_isle() {
 	$ajax = ! empty( $_POST['ajax'] );
 	$geri = function ( $ok, $mesaj ) use ( $ajax ) {
+		$cop = '';
+		while ( ob_get_level() > 0 ) {
+			$cop .= ob_get_clean();
+		}
+		if ( '' !== trim( $cop ) ) {
+			ftot_gunluk( 'ARA CIKTI: ' . mb_substr( wp_strip_all_tags( $cop ), 0, 500 ) );
+		}
 		if ( $ajax ) {
 			$ok ? wp_send_json_success( array( 'mesaj' => $mesaj ) ) : wp_send_json_error( array( 'mesaj' => $mesaj ), 200 );
 		}
@@ -501,6 +530,7 @@ function ftot_gonder() {
 	) );
 	$j = is_wp_error( $r ) ? null : json_decode( wp_remote_retrieve_body( $r ), true );
 	if ( empty( $j['success'] ) ) {
+		ftot_gunluk( 'reCAPTCHA red: ' . ( is_wp_error( $r ) ? $r->get_error_message() : wp_json_encode( $j ) ) );
 		$geri( false, 'Güvenlik doğrulaması başarısız. Lütfen tekrar deneyin.' );
 	}
 
@@ -532,8 +562,13 @@ function ftot_gonder() {
 		'Content-Type: text/html; charset=UTF-8',
 		'Reply-To: ' . str_replace( array( "\r", "\n", '<', '>' ), '', $v['ad_soyad'] ) . ' <' . $v['eposta'] . '>',
 	);
+	ftot_gunluk( 'kayit ' . $talep_id );
+	add_action( 'wp_mail_failed', function ( $e ) {
+		ftot_gunluk( 'wp_mail hatasi: ' . $e->get_error_message() );
+	} );
 	$gitti = wp_mail( array_map( 'trim', explode( ',', $kime ) ), $konu, $govde, $basl );
 	update_post_meta( $talep_id, 'eposta_gonderildi', $gitti ? 1 : 0 );
+	ftot_gunluk( 'kayit ' . $talep_id . ' eposta ' . ( $gitti ? 'gitti' : 'GITMEDI' ) );
 
 	$geri( true, ' Ekibimiz en kısa sürede ' . esc_html( $v['eposta'] ) . ' adresinden veya telefonla size dönüş yapacak.' );
 }
