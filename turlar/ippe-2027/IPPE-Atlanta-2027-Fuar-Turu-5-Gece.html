@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<title>IPPE Atlanta 2027 Fuar Turu – Fuartour</title>
+<style>
+@page{size:A4;margin:0}
+*{box-sizing:border-box}
+:root{--navy:#16213E;--or:#F15A24;--mut:#6b7280;--line:#e5e7eb;--soft:#f3f4f7}
+body{margin:0;font-family:Inter,sans-serif;font-size:8.7pt;line-height:1.42;color:#1f2937;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;padding:0 11.2mm}
+.hd{height:23.3mm;display:flex;align-items:center;justify-content:space-between;border-bottom:.6mm solid #F15A24}
+.hd img{height:13.6mm;margin-left:.3mm}
+.hd div{text-align:right;color:#4b5563;font-size:8.6pt;line-height:1.55}.hd b{color:var(--navy);font-size:10pt;font-weight:700}
+.ft{position:absolute;left:11.2mm;right:11.2mm;bottom:7mm;border-top:.3mm solid var(--line);padding-top:2.2mm;display:flex;justify-content:space-between;font-size:7.4pt;color:var(--mut)}
+h2{font-size:12.6pt;font-weight:600;color:var(--navy);margin:4.2mm 0 2.4mm;padding-left:3mm;border-left:1.1mm solid var(--or);line-height:1.2}
+h2 small{font-size:7.6pt;font-weight:400;color:var(--mut);margin-left:2.5mm}
+b{font-weight:700;color:var(--navy)}
+/* hero */
+.hero{margin-top:3.4mm;border-radius:3mm;height:37mm;padding:4mm 8mm;color:#fff;background:linear-gradient(90deg,rgba(22,33,62,.93),rgba(22,33,62,.78) 60%,rgba(22,33,62,.55)),url(assets/hero.jpg) center 30%/cover}
+.kick{display:inline-block;background:var(--or);color:#fff;font-weight:700;font-size:8.6pt;letter-spacing:.06em;padding:1.1mm 3.2mm;border-radius:1.2mm}
+.hero h1{font-size:23pt;font-weight:800;margin:2mm 0 1.4mm;letter-spacing:-.01em;line-height:1.1}
+.hero p{margin:0;font-size:10pt;line-height:1.45;max-width:150mm;color:#eef1f6}
+/* fair info */
+.fair{display:grid;grid-template-columns:106mm 1fr;gap:6mm;align-items:start}
+.kv>div{display:grid;grid-template-columns:24mm 1fr;border-bottom:.3mm solid var(--line);padding:1.3mm 0;font-size:9pt;line-height:1.38}
+.kv span{color:var(--mut)}
+.st{display:grid;grid-template-columns:repeat(3,1fr);gap:2.4mm}
+.st div{background:var(--soft);border-radius:2mm;padding:2.2mm 2.6mm;min-height:17.5mm}
+.st b{display:block;color:var(--or);font-size:13.5pt;font-weight:700;line-height:1.15}.st span{font-size:7.5pt;color:#4b5563;line-height:1.3;display:block}
+.stn{font-size:7.4pt;color:var(--mut);margin-top:2.4mm;line-height:1.45}
+.ph3{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm;margin-top:3mm}
+.ph3 div{height:18mm;border-radius:2mm;background-size:cover;background-position:center;position:relative;overflow:hidden}
+.ph3 div:after{content:'';position:absolute;inset:0;background:linear-gradient(transparent 45%,rgba(0,0,0,.6))}
+.ph3 span{position:absolute;left:2.4mm;bottom:1.8mm;color:#fff;font-weight:600;font-size:8pt;z-index:1}
+/* days */
+.day{display:grid;grid-template-columns:31.5mm 1fr;border-bottom:.3mm solid #d9dce3;padding:1.05mm 0 1.1mm}
+.day .n{display:inline-block;background:var(--navy);color:#fff;font-weight:600;font-size:8pt;padding:.8mm 2.6mm;border-radius:1mm}
+.day .d{display:block;color:#4b5563;font-weight:500;font-size:8pt;margin-top:1.2mm}
+.day h3{margin:0 0 .3mm;font-size:10.2pt;font-weight:700;color:var(--navy)}
+.day p{margin:0;font-size:8.7pt;line-height:1.38}
+.day:has(+.ft){border-bottom:0}
+/* hotels */
+.hotel{background:var(--soft);border-radius:2.4mm;padding:2mm 2.4mm;display:grid;grid-template-columns:79.5mm 1fr;gap:4.4mm;margin-bottom:2.2mm;align-items:center}
+.hotel img{width:79.5mm;height:33.5mm;object-fit:cover;display:block;border-radius:1.4mm}
+.hotel .tag{color:var(--or);font-weight:700;font-size:7.6pt;letter-spacing:.05em;margin-top:.6mm}
+.hotel h3{margin:.8mm 0 .3mm;font-size:11.4pt;white-space:nowrap;font-weight:700;color:var(--navy)}.hotel h3 em{font-style:normal;color:var(--or);font-size:10pt;letter-spacing:.05em}
+.hotel .ad{color:#4b5563;font-size:8.4pt;margin-bottom:1mm}
+.hotel li{font-size:8.3pt;margin-bottom:.5mm;line-height:1.34}
+ul{margin:0;padding:0;list-style:none}li{position:relative;padding-left:3.6mm;margin:0 0 .8mm;font-size:8.6pt;line-height:1.38}
+li:before{content:'';position:absolute;left:.3mm;top:1.45mm;width:1.5mm;height:1.5mm;border-radius:50%;background:var(--or)}
+table.t{width:100%;border-collapse:collapse;font-size:8.9pt}
+table.t th{background:var(--navy);color:#fff;text-align:left;font-weight:600;padding:1.5mm 2.2mm;white-space:nowrap}
+table.t td{padding:1mm 2.2mm;border-bottom:.3mm solid var(--line)}
+table.t td.g{color:var(--mut)}
+.box2{display:grid;grid-template-columns:1fr 1fr;gap:5.4mm;margin-top:3mm}
+.box2>div{border:.35mm solid #d9dce3;border-radius:2.4mm;padding:2.6mm 3.6mm 1.8mm}
+.box2 h4{margin:0 0 1.4mm;font-size:10.4pt;font-weight:700;color:var(--navy)}
+.price td{padding:1.6mm 2.2mm;font-size:9.2pt}.price td:first-child{font-weight:700;color:var(--navy)}
+.price .p{color:var(--or);font-weight:700;font-size:13pt}
+.pn{text-align:center;font-size:7.6pt;color:var(--mut);margin-top:2mm;line-height:1.55}
+.pn b{color:#374151;font-weight:600}
+.warn{margin-top:2.4mm;border:.35mm solid #f6b89c;background:#fff4ee;border-radius:2mm;padding:2.4mm 3.4mm;font-size:8.6pt;line-height:1.45}
+.warn b{color:var(--or)}
+/* form */
+.fbox{background:var(--soft);border-radius:2mm;padding:2.8mm 3.4mm}.fbox b{font-size:10.4pt}.fbox div{color:var(--mut);font-size:8.2pt;margin-top:.8mm}
+label{display:block;font-weight:600;font-size:7.8pt;color:var(--navy);margin:1.9mm 0 1.3mm}label i,.req{color:var(--or);font-style:normal}
+input[type=text],textarea{display:block;width:100%;height:6.4mm;border:.3mm solid #c7ccd6;background:#f1f4f9;border-radius:.6mm;font:inherit;font-size:9pt;padding:0 1.6mm}
+textarea{height:10.6mm;resize:none}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:5mm}
+.chk{display:flex;gap:2.4mm;align-items:flex-start}.chk input{width:3.8mm;height:3.8mm;margin:.2mm 0 0;flex:none}
+.chk b{font-size:8.9pt;font-weight:600}.chk div span{display:block;color:var(--mut);font-size:7.9pt}
+.cnt{display:flex;gap:9mm;margin-top:3mm;align-items:center;font-size:8.9pt}.cnt span{display:flex;align-items:center;gap:2.6mm}.cnt input{width:14mm!important;height:6.4mm}
+table.k{width:100%;border-collapse:separate;border-spacing:1.2mm 1.2mm;margin:0 -1.2mm;font-size:8pt}
+table.k th{background:var(--navy);color:#fff;text-align:left;font-weight:600;padding:1.8mm 1.8mm}
+table.k td{padding:0}table.k td.no{font-weight:700;color:var(--navy);text-align:center;width:6mm}
+.sigrow{display:grid;grid-template-columns:96mm 1fr;gap:5.8mm}
+.sigbox{border:.35mm dashed #a0a7b4;border-radius:.6mm;height:28mm}
+.how{background:var(--soft);border-radius:2.4mm;padding:3mm 3.8mm;margin-top:2.8mm;min-height:28mm;padding-bottom:2mm;font-size:8.6pt}
+.how h4{margin:0 0 1.4mm;font-size:9.4pt;font-weight:700;color:var(--navy)}
+.how ol{margin:0;padding:0;list-style:none;counter-reset:c}.how li{padding-left:6mm;margin-bottom:1mm;font-size:8.4pt}
+.how li:before{counter-increment:c;content:counter(c);background:var(--or);color:#fff;width:3.8mm;height:3.8mm;top:.2mm;left:0;font-size:6.6pt;font-weight:700;text-align:center;line-height:3.8mm}
+.how .s{color:var(--mut);margin-top:1.4mm;font-size:8pt}
+/* contract */
+.terms{columns:2;column-gap:6.4mm;column-rule:.3mm solid var(--line);font-size:8pt;line-height:1.4;text-align:justify;height:192mm;column-fill:auto}
+.terms h5{margin:0 0 .7mm;font-size:9pt;font-weight:700;color:var(--navy);break-after:avoid}
+.terms p{margin:0 0 2.6mm;break-inside:avoid}
+.parties{display:grid;grid-template-columns:1fr 1fr;gap:6mm;border-top:.3mm solid var(--line);padding-top:3mm;margin-top:3mm}
+.parties h6{margin:0 0 1mm;font-size:8.6pt;font-weight:700;color:var(--navy)}
+.parties .sigbox{height:19mm}
+</style></head><body>
+
+<!-- SAYFA 1 -->
+<section class="page">
+<div class="hd"><img src="assets/logo.png" alt="Fuartour"><div><b>fuartour.com</b><br>0850 255 58 58 · info@fuartour.com</div></div>
+<div class="hero"><span class="kick">5 GECE · 7 GÜN · 24–30 OCAK 2027</span>
+<h1>IPPE Atlanta 2027 Fuar Turu</h1>
+<p>International Production &amp; Processing Expo · İzmir çıkışlı THY uçuşu · fuar alanına yürüme mesafesinde 4* veya şehir merkezinde 5* otel seçeneği</p></div>
+
+<h2>Fuar Bilgileri</h2>
+<div class="fair"><div class="kv">
+<div><span>Fuar</span><div><b>IPPE 2027</b> – International Production &amp; Processing Expo</div></div>
+<div><span>Tarih</span><div><b>26–28 Ocak 2027</b> (Salı–Perşembe)</div></div>
+<div><span>Saatler</span><div>Salı 10:00–17:00 · Çarşamba 09:00–17:00 · Perşembe 09:00–15:00</div></div>
+<div><span>Yer</span><div>Georgia World Congress Center (GWCC), Atlanta, Georgia, ABD</div></div>
+<div><span>Organizatör</span><div>USPOULTRY, AFIA ve Meat Institute</div></div>
+<div><span>Kapsam</span><div>Kanatlı ve yumurta, et işleme ve paketleme, yem ve hayvan besleme teknolojileri</div></div>
+</div><div>
+<div class="st"><div><b>32.550</b><span>kayıtlı ziyaretçi</span></div><div><b>9.706</b><span>uluslararası ziyaretçi</span></div><div><b>115</b><span>ülkeden katılım</span></div>
+<div><b>1.375</b><span>katılımcı firma</span></div><div><b>61.500</b><span>m² sergi alanı (662.214 ft²)</span></div><div><b>%48</b><span>satın alma karar vericisi ziyaretçi</span></div></div>
+<div class="stn">Geçmiş fuar istatistikleri: IPPE 2026 resmî kapanış raporu. IPPE, kanatlı, et ve yem sektörlerinin dünyadaki en büyük yıllık buluşmasıdır.</div>
+</div></div>
+<div class="ph3"><div style="background-image:url(assets/fuar-1.jpg)"><span>Fuar salonları ve stantlar</span></div><div style="background-image:url(assets/fuar-2.jpg)"><span>İşleme ve paketleme teknolojileri</span></div><div style="background-image:url(assets/fuar-3.jpg)"><span>Sektör buluşmaları</span></div></div>
+
+<h2>Gün Gün Program</h2>
+<div class="day"><div><span class="n">1. GÜN</span><span class="d">24 Ocak Pazar</span></div><div><h3>İzmir – İstanbul – Atlanta</h3><p><b>11:55</b> THY <b>TK2319</b> ile İzmir Adnan Menderes'ten hareket, 13:20 İstanbul. <b>15:25</b> THY <b>TK31</b> ile Atlanta'ya hareket, yerel saatle <b>19:45</b> Hartsfield-Jackson Havalimanı'na varış. Karşılama ve özel araçla otele transfer.</p></div></div>
+<div class="day"><div><span class="n">2. GÜN</span><span class="d">25 Ocak Pazartesi</span></div><div><h3>Atlanta'da serbest gün</h3><p>Otelde kahvaltı. Fuar öncesi dinlenme ve serbest zaman: Centennial Olympic Park, Georgia Aquarium ve World of Coca-Cola fuar alanına yürüme mesafesindedir.</p></div></div>
+<div class="day"><div><span class="n">3. GÜN</span><span class="d">26 Ocak Salı</span></div><div><h3>Fuar 1. gün</h3><p>Otelde kahvaltı. Fuar alanına geçiş ve 10:00–17:00 arası <b>IPPE</b> ziyareti; yaka kartlarının alınması, salon planı üzerinden firma görüşmeleri.</p></div></div>
+<div class="day"><div><span class="n">4. GÜN</span><span class="d">27 Ocak Çarşamba</span></div><div><h3>Fuar 2. gün</h3><p>Otelde kahvaltı. 09:00–17:00 arası tam gün fuar ziyareti; TECHTalks sunumları ve eğitim oturumları. Akşam serbest zaman.</p></div></div>
+<div class="day"><div><span class="n">5. GÜN</span><span class="d">28 Ocak Perşembe</span></div><div><h3>Fuar 3. gün (kapanış)</h3><p>Otelde kahvaltı. 09:00–15:00 arası son fuar ziyaretleri ve görüşme takipleri. Öğleden sonra Centennial Olympic Park çevresinde serbest zaman.</p></div></div>
+<div class="day"><div><span class="n">6. GÜN</span><span class="d">29 Ocak Cuma</span></div><div><h3>Atlanta'da serbest gün · Atlanta – İstanbul</h3><p>Otelde kahvaltı ve odaların boşaltılması. Gün boyu serbest zaman: Martin Luther King Jr. Parkı, Midtown ve alışveriş. Akşam özel araçla havalimanına transfer, <b>21:50</b> THY <b>TK32</b> ile İstanbul'a hareket.</p></div></div>
+<div class="day"><div><span class="n">7. GÜN</span><span class="d">30 Ocak Cumartesi</span></div><div><h3>İstanbul – İzmir</h3><p><b>16:40</b> İstanbul Havalimanı'na varış. <b>18:00</b> THY <b>TK2334</b> ile İzmir'e hareket, <b>19:10</b> İzmir'e varış ve turumuzun sonu.</p></div></div>
+<div class="ft"><span>IPPE Atlanta 2027 Fuar Turu · 5 gece</span><span>Fuartour · fuartour.com · Sayfa 1 / 5</span></div>
+</section>
+
+<!-- SAYFA 2 -->
+<section class="page">
+<div class="hd"><img src="assets/logo.png" alt="Fuartour"><div><b>fuartour.com</b><br>0850 255 58 58 · info@fuartour.com</div></div>
+<h2>Konaklama: Atlanta'da İki Otel Seçeneği</h2>
+<div class="hotel"><img src="assets/omni.jpg" alt=""><div><div class="tag">SEÇENEK 1 · FUARA YÜRÜME MESAFESİNDE</div><h3>Omni Atlanta Hotel at Centennial Park <em>★★★★</em></h3><div class="ad">190 Marietta St NW, Atlanta, GA 30303</div>
+<ul><li>IPPE resmî otellerinden; Georgia World Congress Center'a 0,1 mil (yaklaşık 150 m, 2–3 dk yürüme)</li><li>Centennial Olympic Park'ın karşısında; otel içinde restoran, bar, fitness salonu ve açık havuz</li><li>Fuara en yakın konum: gün içinde otele dönüp numune ve katalog bırakma imkânı</li></ul></div></div>
+<div class="hotel"><img src="assets/ritz.jpg" alt=""><div><div class="tag">SEÇENEK 2 · ŞEHİR MERKEZİNDE 5 YILDIZ</div><h3>The Ritz-Carlton, Atlanta <em>★★★★★</em></h3><div class="ad">181 Peachtree St NE, Atlanta, GA 30303</div>
+<ul><li>IPPE resmî otellerinden; fuar alanına 0,7 mil (yaklaşık 1,1 km) – fuar günlerinde özel araçla transfer</li><li>Peachtree Street üzerinde lüks 5 yıldızlı konaklama; restoran, lobby lounge ve fitness salonu</li><li>Havalimanına aktarmasız bağlanan MARTA Peachtree Center istasyonunun hemen yanında</li></ul></div></div>
+
+<h2>Ulaşım</h2>
+<table class="t"><tr><th style="width:19mm"></th><th style="width:43mm">Tarih</th><th style="width:22mm">Sefer</th><th style="width:45mm">Kalkış</th><th>Varış</th></tr>
+<tr><td><b>Gidiş</b></td><td>24 Ocak Pazar</td><td>TK2319</td><td>İzmir (ADB) 11:55</td><td>İstanbul (IST) 13:20</td></tr>
+<tr><td></td><td>24 Ocak Pazar</td><td>TK31</td><td>İstanbul (IST) 15:25</td><td>Atlanta (ATL) 19:45</td></tr>
+<tr><td><b>Dönüş</b></td><td>29 Ocak Cuma</td><td>TK32</td><td>Atlanta (ATL) 21:50</td><td>İstanbul (IST) 16:40 <span style="color:#9ca3af">(30 Ocak)</span></td></tr>
+<tr><td></td><td>30 Ocak Cumartesi</td><td>TK2334</td><td>İstanbul (IST) 18:00</td><td>İzmir (ADB) 19:10</td></tr></table>
+
+<div class="box2"><div><h4>Fiyata Dahil Hizmetler</h4><ul><li>THY ile İzmir – İstanbul – Atlanta gidiş-dönüş uçuş, ekonomi sınıfı, 23 kg bagaj dahil</li><li>Tüm havalimanı vergileri ve harçları</li><li>Seçtiğiniz otelde 5 gece oda + kahvaltı konaklama, otel vergileri dahil</li><li>Havalimanı – otel – havalimanı özel araç transferleri</li></ul></div>
+<div><h4>Fiyata Dahil Olmayanlar</h4><ul><li><b>ABD (B1/B2) vizesi</b> ve vize başvuru harcı</li><li>Fuar giriş kaydı: 8 Ocak 2027'ye kadar 99 USD, 9–25 Ocak arası 149 USD, kapıda 199 USD</li><li>Yurt dışı çıkış harcı ve seyahat sağlık sigortası</li><li>Öğle ve akşam yemekleri, kişisel harcamalar</li><li>Programda belirtilmeyen hizmetler</li></ul></div></div>
+
+<h2>Tur Fiyatları (kişi başı)</h2>
+<table class="t price"><tr><th>Atlanta oteli</th><th style="width:46mm">Çift kişilik odada kişi başı</th><th style="width:34mm">Tek kişilik oda farkı</th></tr>
+<tr><td>Omni Atlanta at Centennial Park (4*, fuara yürüme mesafesinde)</td><td class="p">2.250 USD</td><td>+ 890 USD</td></tr>
+<tr><td>The Ritz-Carlton, Atlanta (5*, şehir merkezi)</td><td class="p">2.490 USD</td><td>+ 950 USD</td></tr></table>
+<div class="warn"><b>Not:</b> Uçak ve otellerde henüz rezervasyon yapılmamıştır; teyidiniz sonrası yapılarak konfirmeleri tarafınıza iletilecektir.</div>
+<div class="pn">Fiyatlar 4 kişilik grup için hesaplanmıştır. <b>Opsiyon tarihi: 25 Kasım 2026 saat 18:00'e kadar geçerlidir.</b><br>Rezervasyon: 0850 255 58 58 · info@fuartour.com</div>
+<div class="ft"><span>IPPE Atlanta 2027 Fuar Turu · 5 gece</span><span>Fuartour · fuartour.com · Sayfa 2 / 5</span></div>
+</section>
+
+<!-- SAYFA 3: orijinal PDF'ten alınır (build_pdf.py) -->
+<section class="page" id="p3"></section>
+
+<!-- SAYFA 4 -->
+<section class="page">
+<div class="hd"><img src="assets/logo.png" alt="Fuartour"><div><b>fuartour.com</b><br>0850 255 58 58 · info@fuartour.com</div></div>
+<h2>Kayıt Formu</h2>
+<div class="fbox"><b>IPPE Atlanta 2027 Fuar Turu</b><div>24–30 Ocak 2027 · 5 gece · THY ile İzmir çıkışlı · Fuar: 26–28 Ocak 2027, Georgia World Congress Center</div></div>
+<h2 style="display:flex;justify-content:space-between;align-items:baseline">Firma Bilgileri<small><span class="req">*</span> zorunlu alan</small></h2>
+<label>Firma adı / unvanı <i>*</i></label><input type="text" name="firma_unvan" required>
+<div class="g2"><div><label>Telefon <i>*</i></label><input type="text" name="firma_telefon" required></div><div><label>E-posta <i>*</i></label><input type="text" name="firma_eposta" required></div></div>
+<label>Adres <i>*</i></label><textarea name="firma_adres" required></textarea>
+<div class="g2"><div><label>Vergi dairesi <i>*</i></label><input type="text" name="firma_vergi_dairesi" required></div><div><label>Vergi no <i>*</i></label><input type="text" name="firma_vergi_no" required></div></div>
+
+<h2>Otel ve Oda Tercihi<small>fiyatlar çift kişilik odada kişi başıdır</small></h2>
+<div class="g2"><div class="chk"><input type="checkbox" name="otel_omni"><div><b>Omni Atlanta at Centennial Park (4*)</b><span>2.250 USD · tek kişilik oda farkı + 890 USD</span></div></div>
+<div class="chk"><input type="checkbox" name="otel_ritz"><div><b>The Ritz-Carlton, Atlanta (5*)</b><span>2.490 USD · tek kişilik oda farkı + 950 USD</span></div></div></div>
+<div class="cnt"><span>Çift kişilik oda sayısı <input type="text" name="oda_cift"></span><span>Tek kişilik oda sayısı <input type="text" name="oda_tek"></span><span>Toplam kişi sayısı <input type="text" name="kisi_toplam"></span></div>
+
+<h2>Katılımcılar<small>isteğe bağlı · sonradan da bildirilebilir</small></h2>
+<table class="k"><tr><th style="width:6mm">#</th><th style="width:55mm">Ad Soyad (pasaporttaki gibi)</th><th style="width:35mm">Cep telefonu</th><th>E-posta</th><th style="width:35mm">T.C. Kimlik No</th></tr>
+<tr><td class="no">1</td><td><input type="text" name="katilimci1_ad"></td><td><input type="text" name="katilimci1_cep"></td><td><input type="text" name="katilimci1_eposta"></td><td><input type="text" name="katilimci1_tc"></td></tr>
+<tr><td class="no">2</td><td><input type="text" name="katilimci2_ad"></td><td><input type="text" name="katilimci2_cep"></td><td><input type="text" name="katilimci2_eposta"></td><td><input type="text" name="katilimci2_tc"></td></tr>
+<tr><td class="no">3</td><td><input type="text" name="katilimci3_ad"></td><td><input type="text" name="katilimci3_cep"></td><td><input type="text" name="katilimci3_eposta"></td><td><input type="text" name="katilimci3_tc"></td></tr>
+<tr><td class="no">4</td><td><input type="text" name="katilimci4_ad"></td><td><input type="text" name="katilimci4_cep"></td><td><input type="text" name="katilimci4_eposta"></td><td><input type="text" name="katilimci4_tc"></td></tr>
+<tr><td class="no">5</td><td><input type="text" name="katilimci5_ad"></td><td><input type="text" name="katilimci5_cep"></td><td><input type="text" name="katilimci5_eposta"></td><td><input type="text" name="katilimci5_tc"></td></tr></table>
+
+<h2>Onay ve İmza</h2>
+<div class="chk"><input type="checkbox" name="onay_sozlesme" required><div style="font-size:8.9pt">Bu dokümandaki tur programını, fiyatları ve 5. sayfadaki Fuar Turu Satış Sözleşmesi'ni okudum; firmam adına kabul ediyorum. <span class="req" style="display:inline">*</span></div></div>
+<div style="display:grid;grid-template-columns:73mm 1fr 59mm;gap:5.4mm"><div><label>Yetkili adı soyadı <i>*</i></label><input type="text" name="yetkili_ad" required></div><div><label>Görevi</label><input type="text" name="yetkili_gorev"></div><div><label>Tarih <i>*</i></label><input type="text" name="tarih" required></div></div>
+<div class="sigrow"><div><label>İmza / Kaşe</label><div class="sigbox"></div></div>
+<div class="how"><h4>Nasıl gönderilir?</h4><ol><li>Alanları bilgisayarda doldurun ve PDF'i kaydedin.</li><li>Bu sayfayı ve 5. sayfayı imzalayın: yazdırıp imzalayıp tarayın veya PDF'e imzanızı ekleyin.</li><li>Dosyayı info@fuartour.com adresine e-posta ile gönderin.</li></ol><div class="s">Bilgi: 0850 255 58 58</div></div></div>
+<div class="ft"><span>IPPE Atlanta 2027 Fuar Turu · 5 gece</span><span>Fuartour · fuartour.com · Sayfa 4 / 5</span></div>
+</section>
+
+<!-- SAYFA 5 -->
+<section class="page">
+<div class="hd"><img src="assets/logo.png" alt="Fuartour"><div><b>fuartour.com</b><br>0850 255 58 58 · info@fuartour.com</div></div>
+<h2>Fuar Turu Satış Sözleşmesi</h2>
+<div class="terms">
+<h5>1. Taraflar</h5><p><b>Satıcı:</b> Fuar Turizm Dış Tic. Ltd. Şti. (“Fuartour”), Bozkurt Mah. Kurtuluş Cad. No:1-5 Şişli / İstanbul · 0850 255 58 58 · info@fuartour.com.<br><b>Alıcı:</b> Bu dokümanın 4. sayfasındaki Kayıt Formu'nda bilgileri yazılı firma (“Firma”).</p>
+<h5>2. Konu</h5><p>Bu sözleşme, Firma'nın Kayıt Formu'nda bildirdiği kişiler (“Katılımcılar”) için Fuartour'un düzenlediği IPPE Atlanta 2027 Fuar Turu'nun (24–30 Ocak 2027, 5 gece) satışına ilişkin koşulları düzenler. Bu dokümanın 1–3. sayfalarındaki tur programı ile 4. sayfadaki Kayıt Formu sözleşmenin ayrılmaz parçasıdır.</p>
+<h5>3. Hizmetin kapsamı</h5><p>Fiyata dahil olan ve olmayan hizmetler 2. sayfada listelenmiştir. Bu listede dahil olarak gösterilmeyen hiçbir hizmet fiyata dahil değildir. ABD vizesi, fuar giriş kaydı, öğle ve akşam yemekleri, seyahat sağlık sigortası ve yurt dışı çıkış harcı Firma'ya aittir.</p>
+<h5>4. Fiyat ve geçerlilik</h5><p>Kişi başı fiyatlar 2. sayfadaki tabloda ABD doları (USD) olarak belirtilmiştir ve Kayıt Formu'nda seçilen otele ve oda tipine göre uygulanır. Fiyatlar 4 kişilik grup için hesaplanmış olup opsiyon tarihi olan 25 Kasım 2026 saat 18:00'e kadar geçerlidir. Bu tarihten sonra yapılan kayıtlarda veya kişi sayısının değişmesi halinde güncel fiyat Fuartour tarafından yazılı olarak teyit edilir.</p>
+<h5>5. Ödeme ve rezervasyonun kesinleşmesi</h5><p>Uçak ve otellerde henüz rezervasyon yapılmamıştır; rezervasyonlar Firma'nın teyidi sonrası yapılarak konfirmeleri Firma'ya iletilir. Ödeme tutarı, planı ve banka hesap bilgileri Fuartour'un göndereceği rezervasyon teyidinde bildirilir. Uçak bileti ve otel rezervasyonu, ödemenin Fuartour hesabına geçmesiyle kesinleşir; ödeme yapılmadan yer ve fiyat garantisi verilmez. Süresinde ödenmeyen kayıtları Fuartour iptal edebilir.</p>
+<h5>6. Katılımcı bilgileri</h5><p>Katılımcıların adı ve soyadı pasaporttaki yazılışıyla bildirilir. Katılımcı bilgileri kayıt sırasında verilmemişse en geç biletleme öncesinde yazılı olarak iletilir. Eksik veya hatalı bildirimden doğan isim değişikliği, yeniden biletleme ve benzeri masraflar Firma'ya aittir.</p>
+<h5>7. Vize ve pasaport</h5><p>ABD vizesinin alınması ve pasaportun seyahat için geçerli olması Katılımcı'nın sorumluluğundadır. Vizenin alınamaması, geç çıkması veya sınır kapısında girişe izin verilmemesi halinde 9. madde uygulanır; Fuartour bu nedenle sorumlu tutulamaz.</p>
+<h5>8. Program değişiklikleri</h5><p>Uçuş saatleri ve seferleri havayolunun yapacağı değişikliklere tabidir. Fuartour, zorunlu hallerde oteli aynı veya üst sınıftan eşdeğer bir otelle değiştirebilir; değişikliği öğrendiğinde Firma'ya gecikmeden bildirir.</p>
+<h5>9. İptal ve iade</h5><p><b>Tur programı Firma tarafından onaylandıktan sonra iptal ve iade yapılmaz;</b> Firma, tur bedelinin tamamını ödemekle yükümlüdür. Katılımcı değişikliği talepleri info@fuartour.com adresine yazılı olarak iletilir ve hizmet sağlayıcıların kuralları elverdiği ölçüde yapılır; doğan farklar Firma'ya aittir.</p>
+<h5>10. Fuarın iptali ve mücbir sebep</h5><p>Fuarın organizatör tarafından iptal edilmesi veya ertelenmesi, doğal afet, salgın, savaş, grev, hava muhalefeti, resmî makam kararı ve tarafların denetimi dışındaki benzeri hallerde taraflar birbirinden tazminat talep edemez. Bu durumda Fuartour, hizmet sağlayıcılardan geri alabildiği tutarları Firma'ya iade eder.</p>
+<h5>11. Sorumluluk</h5><p>Fuartour, pakete dahil hizmetlerin programa uygun biçimde sağlanmasından sorumludur. Havayolu, otel ve fuar organizatörü gibi bağımsız hizmet sağlayıcıların kendi kurallarından ve gecikme, sefer iptali, bagaj kaybı gibi durumlardan doğan talepler ilgili hizmet sağlayıcının koşullarına ve uluslararası taşıma kurallarına tabidir. Katılımcıların kişisel eşyaları ve fuardaki ticari faaliyetleri kendi sorumluluğundadır.</p>
+<h5>12. Kişisel veriler</h5><p>Kayıt Formu'ndaki kişisel veriler, 6698 sayılı Kişisel Verilerin Korunması Kanunu'na uygun olarak yalnızca rezervasyon, biletleme, faturalama ve iletişim amacıyla işlenir; bu amaçla havayolu, otel ve transfer firmasıyla paylaşılır. Firma, Katılımcıları bu konuda bilgilendirdiğini kabul eder.</p>
+<h5>13. Uyuşmazlıklar</h5><p>Bu sözleşmeden doğan uyuşmazlıklarda İstanbul (Çağlayan) Mahkemeleri ve İcra Daireleri yetkilidir.</p>
+<h5>14. Yürürlük</h5><p>Sözleşme, Kayıt Formu'nun ve bu sayfanın Firma yetkilisince imzalanarak e-posta ile Fuartour'a gönderilmesi ve Fuartour'un rezervasyon teyidi vermesiyle yürürlüğe girer. Taraflar, e-posta ile gönderilen imzalı nüshanın geçerli olduğunu kabul eder.</p>
+</div>
+<div class="parties"><div><h6>ALICI · Firma</h6><div style="display:grid;grid-template-columns:1fr 36mm;gap:3mm"><div><label style="margin-top:1mm">Yetkili adı soyadı <i>*</i></label><input type="text" name="sozlesme_yetkili_ad" required></div><div><label style="margin-top:1mm">Tarih <i>*</i></label><input type="text" name="sozlesme_tarih" required></div></div><label>İmza / Kaşe</label><div class="sigbox"></div></div>
+<div><h6>SATICI · Fuartour</h6><div style="font-size:8.4pt;line-height:1.5;margin-top:1mm">Fuar Turizm Dış Tic. Ltd. Şti.<br><span style="color:#6b7280">Bozkurt Mah. Kurtuluş Cad. No:1-5 Şişli / İstanbul<br>0850 255 58 58 · info@fuartour.com</span></div><label>İmza / Kaşe</label><div class="sigbox"></div></div></div>
+<div class="ft"><span>IPPE Atlanta 2027 Fuar Turu · 5 gece</span><span>Fuartour · fuartour.com · Sayfa 5 / 5</span></div>
+</section>
+</body></html>
